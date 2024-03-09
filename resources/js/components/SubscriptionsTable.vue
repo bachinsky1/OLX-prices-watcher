@@ -68,7 +68,7 @@ const fetchSubscriptions = async (url) => {
         subscriptions.value = response.data.data;
         pagination.value = response.data;
     } catch (error) {
-        console.error('Error fetching subscriptions:', error);
+        console.error('Error:', error);
     }
 };
 
