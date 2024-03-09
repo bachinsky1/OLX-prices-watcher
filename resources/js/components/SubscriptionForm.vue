@@ -36,7 +36,7 @@ const emit = defineEmits(['close']);
 
 const form = ref({
     ad_url: '',
-    email: 'bachinsky1@gmail.com'
+    email: ''
 });
 
 const store = useSubscriptionsStore(); // Додано стор до залежностей
@@ -47,7 +47,7 @@ const submitForm = async () => {
         
         // Оновлюємо підписки з повідомленням
         store.setSubscriptions(response.data.message); 
-        
+
         // Закриваємо форму після успішної підписки
         cancel();
         alert(response.data.message)
@@ -64,7 +64,7 @@ const cancel = () => {
 
 const resetForm = () => {
     form.value.ad_url = '';
-    form.value.email = 'bachinsky1@gmail.com';
+    form.value.email = '';
 };
 
 </script>
