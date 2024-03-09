@@ -738,3 +738,7 @@
 2024-03-09 12:21:45,104 INFO spawned: 'price-monitor' with pid 8
 2024-03-09 12:21:46,160 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2024-03-09 12:21:46,161 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-09 13:15:12,160 WARN received SIGQUIT indicating exit request
+2024-03-09 13:15:12,178 INFO waiting for php-fpm, price-monitor to die
+2024-03-09 13:15:13,189 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-09 13:15:13,244 INFO stopped: php-fpm (exit status 0)
