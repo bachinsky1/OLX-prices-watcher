@@ -1,0 +1,740 @@
+2024-03-07 09:03:51,540 INFO Set uid to user 0 succeeded
+2024-03-07 09:03:51,575 INFO RPC interface 'supervisor' initialized
+2024-03-07 09:03:51,576 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-07 09:03:51,586 INFO supervisord started with pid 1
+2024-03-07 09:03:52,592 INFO spawned: 'php-fpm' with pid 7
+2024-03-07 09:03:52,597 INFO spawned: 'price-monitor' with pid 8
+2024-03-07 09:03:53,721 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:03:53,723 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:03:58,675 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:03:59,722 INFO spawned: 'price-monitor' with pid 13
+2024-03-07 09:04:00,726 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:03,705 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:04,707 INFO spawned: 'price-monitor' with pid 16
+2024-03-07 09:04:05,709 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:06,607 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:07,610 INFO spawned: 'price-monitor' with pid 19
+2024-03-07 09:04:08,613 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:11,007 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:12,011 INFO spawned: 'price-monitor' with pid 22
+2024-03-07 09:04:13,014 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:15,515 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:16,518 INFO spawned: 'price-monitor' with pid 25
+2024-03-07 09:04:17,520 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:21,278 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:22,284 INFO spawned: 'price-monitor' with pid 28
+2024-03-07 09:04:23,287 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:26,558 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:27,566 INFO spawned: 'price-monitor' with pid 31
+2024-03-07 09:04:28,596 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:31,566 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:32,570 INFO spawned: 'price-monitor' with pid 34
+2024-03-07 09:04:33,581 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:35,499 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:36,513 INFO spawned: 'price-monitor' with pid 37
+2024-03-07 09:04:37,516 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:38,657 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:39,662 INFO spawned: 'price-monitor' with pid 40
+2024-03-07 09:04:40,665 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:41,720 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:42,725 INFO spawned: 'price-monitor' with pid 43
+2024-03-07 09:04:43,727 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:44,260 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:45,263 INFO spawned: 'price-monitor' with pid 46
+2024-03-07 09:04:46,615 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:46,701 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:47,705 INFO spawned: 'price-monitor' with pid 49
+2024-03-07 09:04:48,761 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:48,824 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:49,828 INFO spawned: 'price-monitor' with pid 52
+2024-03-07 09:04:50,830 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:51,334 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:52,337 INFO spawned: 'price-monitor' with pid 61
+2024-03-07 09:04:53,340 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:54,055 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:55,058 INFO spawned: 'price-monitor' with pid 64
+2024-03-07 09:04:56,060 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:56,533 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:04:57,537 INFO spawned: 'price-monitor' with pid 67
+2024-03-07 09:04:58,539 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:04:59,383 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:05:00,385 INFO spawned: 'price-monitor' with pid 72
+2024-03-07 09:05:01,388 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:02,136 WARN exited: price-monitor (exit status 1; not expected)
+2024-03-07 09:05:03,133 INFO spawned: 'price-monitor' with pid 75
+2024-03-07 09:05:04,485 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:04,494 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:05,498 INFO spawned: 'price-monitor' with pid 78
+2024-03-07 09:05:06,485 WARN exited: price-monitor (exit status 0; not expected)
+2024-03-07 09:05:07,488 INFO spawned: 'price-monitor' with pid 81
+2024-03-07 09:05:08,491 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:08,716 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:09,720 INFO spawned: 'price-monitor' with pid 84
+2024-03-07 09:05:10,723 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:10,973 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:11,978 INFO spawned: 'price-monitor' with pid 87
+2024-03-07 09:05:13,051 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:13,064 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:14,068 INFO spawned: 'price-monitor' with pid 90
+2024-03-07 09:05:15,070 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:15,397 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:16,401 INFO spawned: 'price-monitor' with pid 93
+2024-03-07 09:05:17,404 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:17,781 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:18,785 INFO spawned: 'price-monitor' with pid 96
+2024-03-07 09:05:19,788 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:22,244 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:23,248 INFO spawned: 'price-monitor' with pid 99
+2024-03-07 09:05:24,252 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:26,328 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:27,332 INFO spawned: 'price-monitor' with pid 102
+2024-03-07 09:05:28,335 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:30,675 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:31,680 INFO spawned: 'price-monitor' with pid 105
+2024-03-07 09:05:32,683 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:34,256 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:35,262 INFO spawned: 'price-monitor' with pid 108
+2024-03-07 09:05:36,266 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:38,131 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:39,136 INFO spawned: 'price-monitor' with pid 111
+2024-03-07 09:05:40,139 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:40,864 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:41,867 INFO spawned: 'price-monitor' with pid 114
+2024-03-07 09:05:42,870 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:43,626 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:44,630 INFO spawned: 'price-monitor' with pid 117
+2024-03-07 09:05:45,633 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:46,048 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:47,051 INFO spawned: 'price-monitor' with pid 120
+2024-03-07 09:05:47,957 WARN exited: price-monitor (exit status 0; not expected)
+2024-03-07 09:05:48,961 INFO spawned: 'price-monitor' with pid 123
+2024-03-07 09:05:49,965 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:05:50,166 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:05:51,171 INFO spawned: 'price-monitor' with pid 126
+2024-03-07 09:05:52,110 WARN exited: price-monitor (exit status 0; not expected)
+2024-03-07 09:05:53,113 INFO spawned: 'price-monitor' with pid 129
+2024-03-07 09:05:54,065 WARN exited: price-monitor (exit status 0; not expected)
+2024-03-07 09:05:56,084 INFO spawned: 'price-monitor' with pid 132
+2024-03-07 09:05:56,995 WARN exited: price-monitor (exit status 0; not expected)
+2024-03-07 09:06:00,011 INFO spawned: 'price-monitor' with pid 135
+2024-03-07 09:06:01,014 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:01,238 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:02,242 INFO spawned: 'price-monitor' with pid 138
+2024-03-07 09:06:03,245 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:03,463 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:04,467 INFO spawned: 'price-monitor' with pid 143
+2024-03-07 09:06:05,572 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:06,198 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:07,203 INFO spawned: 'price-monitor' with pid 146
+2024-03-07 09:06:08,206 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:08,910 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:09,914 INFO spawned: 'price-monitor' with pid 149
+2024-03-07 09:06:10,932 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:11,252 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:12,256 INFO spawned: 'price-monitor' with pid 152
+2024-03-07 09:06:13,259 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:13,971 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:14,987 INFO spawned: 'price-monitor' with pid 155
+2024-03-07 09:06:15,990 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:16,260 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:17,264 INFO spawned: 'price-monitor' with pid 158
+2024-03-07 09:06:18,267 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:18,861 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:19,872 INFO spawned: 'price-monitor' with pid 161
+2024-03-07 09:06:20,874 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:21,347 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:22,352 INFO spawned: 'price-monitor' with pid 164
+2024-03-07 09:06:23,353 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:23,475 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:24,480 INFO spawned: 'price-monitor' with pid 167
+2024-03-07 09:06:25,483 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:25,646 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:26,650 INFO spawned: 'price-monitor' with pid 170
+2024-03-07 09:06:27,713 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:27,724 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:28,728 INFO spawned: 'price-monitor' with pid 173
+2024-03-07 09:06:29,731 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:30,602 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:31,606 INFO spawned: 'price-monitor' with pid 176
+2024-03-07 09:06:32,610 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:33,555 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:34,560 INFO spawned: 'price-monitor' with pid 179
+2024-03-07 09:06:35,563 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:35,910 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:36,914 INFO spawned: 'price-monitor' with pid 182
+2024-03-07 09:06:37,969 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:37,985 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:38,079 INFO spawned: 'price-monitor' with pid 185
+2024-03-07 09:06:39,082 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:41,029 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:41,933 INFO spawned: 'price-monitor' with pid 189
+2024-03-07 09:06:42,962 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:43,979 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:44,983 INFO spawned: 'price-monitor' with pid 193
+2024-03-07 09:06:45,986 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:47,049 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:48,053 INFO spawned: 'price-monitor' with pid 197
+2024-03-07 09:06:49,107 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:49,735 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:50,740 INFO spawned: 'price-monitor' with pid 201
+2024-03-07 09:06:51,775 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:52,443 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:53,458 INFO spawned: 'price-monitor' with pid 205
+2024-03-07 09:06:54,549 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:55,267 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:56,271 INFO spawned: 'price-monitor' with pid 209
+2024-03-07 09:06:57,281 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:06:57,963 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:06:58,990 INFO spawned: 'price-monitor' with pid 213
+2024-03-07 09:06:59,993 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:01,292 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:02,297 INFO spawned: 'price-monitor' with pid 217
+2024-03-07 09:07:04,108 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:04,120 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:05,123 INFO spawned: 'price-monitor' with pid 221
+2024-03-07 09:07:06,802 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:06,817 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:07,821 INFO spawned: 'price-monitor' with pid 225
+2024-03-07 09:07:09,801 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:09,995 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:10,998 INFO spawned: 'price-monitor' with pid 229
+2024-03-07 09:07:12,945 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:13,313 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:14,317 INFO spawned: 'price-monitor' with pid 233
+2024-03-07 09:07:16,217 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:17,421 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:18,425 INFO spawned: 'price-monitor' with pid 237
+2024-03-07 09:07:19,428 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:20,248 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:21,252 INFO spawned: 'price-monitor' with pid 241
+2024-03-07 09:07:22,743 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:22,760 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:23,764 INFO spawned: 'price-monitor' with pid 245
+2024-03-07 09:07:24,766 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:25,496 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:26,501 INFO spawned: 'price-monitor' with pid 249
+2024-03-07 09:07:27,927 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:27,938 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:28,942 INFO spawned: 'price-monitor' with pid 253
+2024-03-07 09:07:30,660 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:30,672 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:31,676 INFO spawned: 'price-monitor' with pid 257
+2024-03-07 09:07:33,190 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:33,203 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:34,207 INFO spawned: 'price-monitor' with pid 261
+2024-03-07 09:07:35,996 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:36,008 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:37,012 INFO spawned: 'price-monitor' with pid 265
+2024-03-07 09:07:38,968 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:39,651 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:40,654 INFO spawned: 'price-monitor' with pid 269
+2024-03-07 09:07:42,413 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:42,424 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:43,431 INFO spawned: 'price-monitor' with pid 273
+2024-03-07 09:07:45,232 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:45,243 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:46,248 INFO spawned: 'price-monitor' with pid 277
+2024-03-07 09:07:47,751 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:47,762 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:48,766 INFO spawned: 'price-monitor' with pid 281
+2024-03-07 09:07:50,330 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:50,341 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:51,345 INFO spawned: 'price-monitor' with pid 285
+2024-03-07 09:07:53,238 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:53,642 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:54,645 INFO spawned: 'price-monitor' with pid 289
+2024-03-07 09:07:56,530 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:07:57,390 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:07:58,394 INFO spawned: 'price-monitor' with pid 293
+2024-03-07 09:08:00,356 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:01,008 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:02,012 INFO spawned: 'price-monitor' with pid 297
+2024-03-07 09:08:03,555 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:03,566 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:04,570 INFO spawned: 'price-monitor' with pid 301
+2024-03-07 09:08:05,573 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:06,147 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:07,151 INFO spawned: 'price-monitor' with pid 305
+2024-03-07 09:08:08,946 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:08,957 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:09,961 INFO spawned: 'price-monitor' with pid 309
+2024-03-07 09:08:11,466 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:11,477 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:12,481 INFO spawned: 'price-monitor' with pid 313
+2024-03-07 09:08:13,991 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:14,002 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:15,009 INFO spawned: 'price-monitor' with pid 317
+2024-03-07 09:08:16,793 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:16,804 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:17,808 INFO spawned: 'price-monitor' with pid 321
+2024-03-07 09:08:19,423 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:19,435 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:20,438 INFO spawned: 'price-monitor' with pid 325
+2024-03-07 09:08:22,116 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:22,127 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:23,131 INFO spawned: 'price-monitor' with pid 329
+2024-03-07 09:08:24,191 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:24,861 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:25,866 INFO spawned: 'price-monitor' with pid 333
+2024-03-07 09:08:27,822 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:28,419 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:29,423 INFO spawned: 'price-monitor' with pid 337
+2024-03-07 09:08:31,033 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:31,044 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:32,048 INFO spawned: 'price-monitor' with pid 341
+2024-03-07 09:08:33,713 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:33,725 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:34,729 INFO spawned: 'price-monitor' with pid 345
+2024-03-07 09:08:36,349 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:36,361 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:37,365 INFO spawned: 'price-monitor' with pid 349
+2024-03-07 09:08:39,191 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:39,202 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:40,206 INFO spawned: 'price-monitor' with pid 353
+2024-03-07 09:08:41,629 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:41,642 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:42,646 INFO spawned: 'price-monitor' with pid 357
+2024-03-07 09:08:44,418 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:44,429 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:45,433 INFO spawned: 'price-monitor' with pid 361
+2024-03-07 09:08:46,482 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:47,161 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:48,164 INFO spawned: 'price-monitor' with pid 365
+2024-03-07 09:08:49,715 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:49,727 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:50,731 INFO spawned: 'price-monitor' with pid 369
+2024-03-07 09:08:52,230 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:52,246 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:53,250 INFO spawned: 'price-monitor' with pid 373
+2024-03-07 09:08:54,769 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:54,781 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:55,785 INFO spawned: 'price-monitor' with pid 377
+2024-03-07 09:08:57,563 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:08:57,580 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:08:58,584 INFO spawned: 'price-monitor' with pid 381
+2024-03-07 09:08:59,601 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:00,848 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:01,852 INFO spawned: 'price-monitor' with pid 385
+2024-03-07 09:09:03,732 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:03,746 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:04,750 INFO spawned: 'price-monitor' with pid 389
+2024-03-07 09:09:06,335 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:06,351 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:07,355 INFO spawned: 'price-monitor' with pid 393
+2024-03-07 09:09:09,285 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:09,300 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:10,304 INFO spawned: 'price-monitor' with pid 397
+2024-03-07 09:09:12,259 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:12,615 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:13,621 INFO spawned: 'price-monitor' with pid 401
+2024-03-07 09:09:14,662 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:15,207 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:16,210 INFO spawned: 'price-monitor' with pid 405
+2024-03-07 09:09:17,229 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:18,000 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:19,007 INFO spawned: 'price-monitor' with pid 409
+2024-03-07 09:09:20,047 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:20,626 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:21,630 INFO spawned: 'price-monitor' with pid 413
+2024-03-07 09:09:22,650 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:23,625 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:24,628 INFO spawned: 'price-monitor' with pid 417
+2024-03-07 09:09:26,487 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:26,499 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:27,502 INFO spawned: 'price-monitor' with pid 421
+2024-03-07 09:09:28,572 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:29,484 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:30,488 INFO spawned: 'price-monitor' with pid 425
+2024-03-07 09:09:32,234 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:32,248 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:33,252 INFO spawned: 'price-monitor' with pid 429
+2024-03-07 09:09:34,943 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:34,955 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:35,959 INFO spawned: 'price-monitor' with pid 433
+2024-03-07 09:09:37,526 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:37,538 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:38,542 INFO spawned: 'price-monitor' with pid 437
+2024-03-07 09:09:39,577 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:40,232 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:41,236 INFO spawned: 'price-monitor' with pid 441
+2024-03-07 09:09:42,719 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:42,742 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:43,748 INFO spawned: 'price-monitor' with pid 445
+2024-03-07 09:09:45,303 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:45,314 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:46,318 INFO spawned: 'price-monitor' with pid 449
+2024-03-07 09:09:47,719 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:47,731 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:48,734 INFO spawned: 'price-monitor' with pid 453
+2024-03-07 09:09:50,299 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:50,317 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:51,321 INFO spawned: 'price-monitor' with pid 457
+2024-03-07 09:09:53,048 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:53,064 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:54,068 INFO spawned: 'price-monitor' with pid 461
+2024-03-07 09:09:55,071 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:56,582 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:09:57,586 INFO spawned: 'price-monitor' with pid 465
+2024-03-07 09:09:59,263 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:09:59,277 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:00,280 INFO spawned: 'price-monitor' with pid 469
+2024-03-07 09:10:01,283 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:02,539 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:03,543 INFO spawned: 'price-monitor' with pid 473
+2024-03-07 09:10:04,542 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:05,410 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:06,412 INFO spawned: 'price-monitor' with pid 477
+2024-03-07 09:10:08,296 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:08,308 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:09,312 INFO spawned: 'price-monitor' with pid 481
+2024-03-07 09:10:10,315 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:11,463 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:12,467 INFO spawned: 'price-monitor' with pid 485
+2024-03-07 09:10:13,520 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:14,177 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:15,182 INFO spawned: 'price-monitor' with pid 489
+2024-03-07 09:10:16,293 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:17,214 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:18,218 INFO spawned: 'price-monitor' with pid 493
+2024-03-07 09:10:19,873 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:19,885 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:20,888 INFO spawned: 'price-monitor' with pid 497
+2024-03-07 09:10:22,880 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:23,045 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:24,049 INFO spawned: 'price-monitor' with pid 501
+2024-03-07 09:10:25,061 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:25,671 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:26,676 INFO spawned: 'price-monitor' with pid 505
+2024-03-07 09:10:28,234 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:28,246 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:29,249 INFO spawned: 'price-monitor' with pid 509
+2024-03-07 09:10:30,753 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:30,766 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:31,770 INFO spawned: 'price-monitor' with pid 513
+2024-03-07 09:10:33,391 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:33,404 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:34,408 INFO spawned: 'price-monitor' with pid 517
+2024-03-07 09:10:36,329 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:36,598 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:37,601 INFO spawned: 'price-monitor' with pid 521
+2024-03-07 09:10:39,561 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:39,857 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:40,860 INFO spawned: 'price-monitor' with pid 525
+2024-03-07 09:10:42,806 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:43,011 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:44,015 INFO spawned: 'price-monitor' with pid 529
+2024-03-07 09:10:45,976 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:46,018 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:47,021 INFO spawned: 'price-monitor' with pid 533
+2024-03-07 09:10:48,670 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:48,682 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:49,686 INFO spawned: 'price-monitor' with pid 537
+2024-03-07 09:10:51,299 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:51,310 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:52,315 INFO spawned: 'price-monitor' with pid 541
+2024-03-07 09:10:53,396 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:54,120 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:55,123 INFO spawned: 'price-monitor' with pid 545
+2024-03-07 09:10:56,591 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:56,603 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:10:57,605 INFO spawned: 'price-monitor' with pid 549
+2024-03-07 09:10:59,320 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:10:59,332 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:00,336 INFO spawned: 'price-monitor' with pid 553
+2024-03-07 09:11:01,337 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:01,902 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:02,906 INFO spawned: 'price-monitor' with pid 557
+2024-03-07 09:11:04,894 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:04,921 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:05,925 INFO spawned: 'price-monitor' with pid 561
+2024-03-07 09:11:07,712 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:07,727 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:08,731 INFO spawned: 'price-monitor' with pid 565
+2024-03-07 09:11:10,727 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:10,744 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:11,747 INFO spawned: 'price-monitor' with pid 569
+2024-03-07 09:11:13,537 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:13,551 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:14,554 INFO spawned: 'price-monitor' with pid 573
+2024-03-07 09:11:16,329 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:16,341 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:17,345 INFO spawned: 'price-monitor' with pid 577
+2024-03-07 09:11:18,799 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:18,815 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:19,819 INFO spawned: 'price-monitor' with pid 581
+2024-03-07 09:11:21,771 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:21,948 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:22,951 INFO spawned: 'price-monitor' with pid 585
+2024-03-07 09:11:24,531 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:24,542 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:25,545 INFO spawned: 'price-monitor' with pid 589
+2024-03-07 09:11:27,083 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:27,095 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:28,098 INFO spawned: 'price-monitor' with pid 593
+2024-03-07 09:11:29,739 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:29,754 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:30,758 INFO spawned: 'price-monitor' with pid 597
+2024-03-07 09:11:32,619 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:32,631 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:33,634 INFO spawned: 'price-monitor' with pid 601
+2024-03-07 09:11:35,482 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:35,495 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:36,498 INFO spawned: 'price-monitor' with pid 605
+2024-03-07 09:11:38,135 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:38,147 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:39,151 INFO spawned: 'price-monitor' with pid 609
+2024-03-07 09:11:41,106 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:41,771 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:42,775 INFO spawned: 'price-monitor' with pid 613
+2024-03-07 09:11:44,380 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:44,391 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:45,395 INFO spawned: 'price-monitor' with pid 617
+2024-03-07 09:11:47,096 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:47,107 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:48,111 INFO spawned: 'price-monitor' with pid 621
+2024-03-07 09:11:50,061 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:50,544 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:51,546 INFO spawned: 'price-monitor' with pid 625
+2024-03-07 09:11:52,951 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:52,962 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:53,966 INFO spawned: 'price-monitor' with pid 629
+2024-03-07 09:11:55,872 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:11:57,481 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:11:58,485 INFO spawned: 'price-monitor' with pid 633
+2024-03-07 09:12:00,175 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:00,186 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:01,190 INFO spawned: 'price-monitor' with pid 637
+2024-03-07 09:12:02,604 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:02,616 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:03,619 INFO spawned: 'price-monitor' with pid 641
+2024-03-07 09:12:04,627 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:05,681 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:06,685 INFO spawned: 'price-monitor' with pid 645
+2024-03-07 09:12:08,217 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:08,229 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:09,233 INFO spawned: 'price-monitor' with pid 649
+2024-03-07 09:12:11,008 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:11,020 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:12,024 INFO spawned: 'price-monitor' with pid 653
+2024-03-07 09:12:13,984 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:14,615 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:15,619 INFO spawned: 'price-monitor' with pid 657
+2024-03-07 09:12:17,370 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:17,381 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:18,385 INFO spawned: 'price-monitor' with pid 661
+2024-03-07 09:12:20,189 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:20,201 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:21,204 INFO spawned: 'price-monitor' with pid 665
+2024-03-07 09:12:22,842 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:22,854 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:23,858 INFO spawned: 'price-monitor' with pid 669
+2024-03-07 09:12:25,420 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:25,432 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:26,436 INFO spawned: 'price-monitor' with pid 673
+2024-03-07 09:12:28,023 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:28,035 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:29,039 INFO spawned: 'price-monitor' with pid 677
+2024-03-07 09:12:30,798 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:30,810 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:31,814 INFO spawned: 'price-monitor' with pid 681
+2024-03-07 09:12:33,735 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:33,748 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:34,752 INFO spawned: 'price-monitor' with pid 685
+2024-03-07 09:12:36,644 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:36,656 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:37,660 INFO spawned: 'price-monitor' with pid 689
+2024-03-07 09:12:39,419 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:39,431 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:40,435 INFO spawned: 'price-monitor' with pid 693
+2024-03-07 09:12:42,066 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:42,078 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:43,082 INFO spawned: 'price-monitor' with pid 697
+2024-03-07 09:12:45,057 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:45,337 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:46,341 INFO spawned: 'price-monitor' with pid 701
+2024-03-07 09:12:48,284 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:48,302 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:49,306 INFO spawned: 'price-monitor' with pid 705
+2024-03-07 09:12:50,937 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:50,952 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:51,956 INFO spawned: 'price-monitor' with pid 709
+2024-03-07 09:12:53,538 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:53,550 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:54,554 INFO spawned: 'price-monitor' with pid 713
+2024-03-07 09:12:56,161 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:56,173 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:57,176 INFO spawned: 'price-monitor' with pid 717
+2024-03-07 09:12:58,709 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:12:58,720 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:12:59,724 INFO spawned: 'price-monitor' with pid 721
+2024-03-07 09:13:01,451 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:01,464 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:02,468 INFO spawned: 'price-monitor' with pid 725
+2024-03-07 09:13:03,546 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:04,177 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:05,181 INFO spawned: 'price-monitor' with pid 729
+2024-03-07 09:13:06,215 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:07,606 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:08,609 INFO spawned: 'price-monitor' with pid 733
+2024-03-07 09:13:09,664 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:10,581 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:11,584 INFO spawned: 'price-monitor' with pid 737
+2024-03-07 09:13:13,272 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:13,284 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:14,287 INFO spawned: 'price-monitor' with pid 741
+2024-03-07 09:13:16,000 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:16,011 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:17,014 INFO spawned: 'price-monitor' with pid 745
+2024-03-07 09:13:18,030 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:18,723 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:19,728 INFO spawned: 'price-monitor' with pid 749
+2024-03-07 09:13:21,500 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:21,512 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:22,515 INFO spawned: 'price-monitor' with pid 753
+2024-03-07 09:13:23,523 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:24,278 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:25,282 INFO spawned: 'price-monitor' with pid 757
+2024-03-07 09:13:26,310 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:27,271 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:28,276 INFO spawned: 'price-monitor' with pid 761
+2024-03-07 09:13:29,952 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:29,966 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:30,970 INFO spawned: 'price-monitor' with pid 765
+2024-03-07 09:13:32,596 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:32,608 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:33,612 INFO spawned: 'price-monitor' with pid 769
+2024-03-07 09:13:34,666 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:35,399 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:36,403 INFO spawned: 'price-monitor' with pid 773
+2024-03-07 09:13:38,201 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:38,212 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:39,216 INFO spawned: 'price-monitor' with pid 777
+2024-03-07 09:13:40,219 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:41,172 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:42,176 INFO spawned: 'price-monitor' with pid 781
+2024-03-07 09:13:44,149 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:44,506 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:45,509 INFO spawned: 'price-monitor' with pid 785
+2024-03-07 09:13:47,502 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:48,252 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:49,255 INFO spawned: 'price-monitor' with pid 789
+2024-03-07 09:13:51,178 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:51,380 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:52,383 INFO spawned: 'price-monitor' with pid 793
+2024-03-07 09:13:54,082 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:54,093 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:55,096 INFO spawned: 'price-monitor' with pid 797
+2024-03-07 09:13:56,884 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:13:56,898 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:13:57,902 INFO spawned: 'price-monitor' with pid 801
+2024-03-07 09:13:59,831 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:14:00,107 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:14:01,110 INFO spawned: 'price-monitor' with pid 805
+2024-03-07 09:14:02,598 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:14:02,610 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:14:03,614 INFO spawned: 'price-monitor' with pid 809
+2024-03-07 09:14:05,443 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:14:05,458 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:14:06,462 INFO spawned: 'price-monitor' with pid 813
+2024-03-07 09:14:08,023 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:14:08,034 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:14:09,038 INFO spawned: 'price-monitor' with pid 817
+2024-03-07 09:14:10,042 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:14:10,925 INFO exited: price-monitor (exit status 0; expected)
+2024-03-07 09:14:11,928 INFO spawned: 'price-monitor' with pid 821
+2024-03-07 09:14:11,929 WARN received SIGQUIT indicating exit request
+2024-03-07 09:14:11,935 INFO waiting for php-fpm, price-monitor to die
+2024-03-07 09:14:11,936 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-07 09:14:11,973 INFO stopped: php-fpm (exit status 0)
+2024-03-07 09:15:58,495 INFO Set uid to user 0 succeeded
+2024-03-07 09:15:58,584 INFO RPC interface 'supervisor' initialized
+2024-03-07 09:15:58,586 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-07 09:15:58,599 INFO supervisord started with pid 1
+2024-03-07 09:15:59,610 INFO spawned: 'php-fpm' with pid 7
+2024-03-07 09:15:59,623 INFO spawned: 'price-monitor' with pid 8
+2024-03-07 09:16:00,945 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:16:00,947 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:26:49,876 WARN received SIGQUIT indicating exit request
+2024-03-07 09:26:49,896 INFO waiting for php-fpm, price-monitor to die
+2024-03-07 09:26:50,915 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-07 09:26:50,942 INFO stopped: php-fpm (exit status 0)
+2024-03-07 09:28:23,254 INFO Set uid to user 0 succeeded
+2024-03-07 09:28:23,262 INFO RPC interface 'supervisor' initialized
+2024-03-07 09:28:23,263 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-07 09:28:23,271 INFO supervisord started with pid 1
+2024-03-07 09:28:24,276 INFO spawned: 'php-fpm' with pid 7
+2024-03-07 09:28:24,281 INFO spawned: 'price-monitor' with pid 8
+2024-03-07 09:28:25,359 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 09:28:25,361 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 18:59:27,511 WARN received SIGQUIT indicating exit request
+2024-03-07 18:59:27,528 INFO waiting for php-fpm, price-monitor to die
+2024-03-07 18:59:28,546 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-07 18:59:28,621 INFO stopped: php-fpm (exit status 0)
+2024-03-07 18:59:33,880 INFO Set uid to user 0 succeeded
+2024-03-07 18:59:33,886 INFO RPC interface 'supervisor' initialized
+2024-03-07 18:59:33,886 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-07 18:59:33,896 INFO supervisord started with pid 1
+2024-03-07 18:59:34,900 INFO spawned: 'php-fpm' with pid 7
+2024-03-07 18:59:34,912 INFO spawned: 'price-monitor' with pid 8
+2024-03-07 18:59:35,944 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 18:59:35,945 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 19:16:44,497 WARN received SIGQUIT indicating exit request
+2024-03-07 19:16:44,509 INFO waiting for php-fpm, price-monitor to die
+2024-03-07 19:16:45,523 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-07 19:16:45,550 INFO stopped: php-fpm (exit status 0)
+2024-03-07 19:16:50,613 INFO Set uid to user 0 succeeded
+2024-03-07 19:16:50,621 INFO RPC interface 'supervisor' initialized
+2024-03-07 19:16:50,623 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-07 19:16:50,630 INFO supervisord started with pid 1
+2024-03-07 19:16:51,636 INFO spawned: 'php-fpm' with pid 7
+2024-03-07 19:16:51,642 INFO spawned: 'price-monitor' with pid 8
+2024-03-07 19:16:52,688 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 19:16:52,690 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 20:42:06,588 WARN received SIGQUIT indicating exit request
+2024-03-07 20:42:06,590 INFO waiting for php-fpm, price-monitor to die
+2024-03-07 20:42:07,592 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-07 20:42:07,600 INFO stopped: php-fpm (exit status 0)
+2024-03-07 20:42:12,145 INFO Set uid to user 0 succeeded
+2024-03-07 20:42:12,153 INFO RPC interface 'supervisor' initialized
+2024-03-07 20:42:12,154 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-07 20:42:12,163 INFO supervisord started with pid 1
+2024-03-07 20:42:13,167 INFO spawned: 'php-fpm' with pid 7
+2024-03-07 20:42:13,173 INFO spawned: 'price-monitor' with pid 8
+2024-03-07 20:42:14,226 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 20:42:14,227 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 20:42:25,883 WARN received SIGQUIT indicating exit request
+2024-03-07 20:42:25,884 INFO waiting for php-fpm, price-monitor to die
+2024-03-07 20:42:26,887 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-07 20:42:26,894 INFO stopped: php-fpm (exit status 0)
+2024-03-07 20:42:46,608 INFO Set uid to user 0 succeeded
+2024-03-07 20:42:46,613 INFO RPC interface 'supervisor' initialized
+2024-03-07 20:42:46,628 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-07 20:42:46,686 INFO supervisord started with pid 1
+2024-03-07 20:42:47,696 INFO spawned: 'php-fpm' with pid 7
+2024-03-07 20:42:47,702 INFO spawned: 'price-monitor' with pid 8
+2024-03-07 20:42:48,757 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-07 20:42:48,758 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-08 14:33:58,379 WARN received SIGQUIT indicating exit request
+2024-03-08 14:33:58,397 INFO waiting for php-fpm, price-monitor to die
+2024-03-08 14:33:59,417 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-08 14:33:59,496 INFO stopped: php-fpm (exit status 0)
+2024-03-08 14:34:42,885 INFO Set uid to user 0 succeeded
+2024-03-08 14:34:42,893 INFO RPC interface 'supervisor' initialized
+2024-03-08 14:34:42,895 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-08 14:34:42,904 INFO supervisord started with pid 1
+2024-03-08 14:34:43,909 INFO spawned: 'php-fpm' with pid 7
+2024-03-08 14:34:43,919 INFO spawned: 'price-monitor' with pid 8
+2024-03-08 14:34:44,956 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-08 14:34:44,958 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-09 12:21:03,059 WARN received SIGQUIT indicating exit request
+2024-03-09 12:21:03,088 INFO waiting for php-fpm, price-monitor to die
+2024-03-09 12:21:04,105 WARN stopped: price-monitor (terminated by SIGTERM)
+2024-03-09 12:21:04,170 INFO stopped: php-fpm (exit status 0)
+2024-03-09 12:21:44,046 INFO Set uid to user 0 succeeded
+2024-03-09 12:21:44,067 INFO RPC interface 'supervisor' initialized
+2024-03-09 12:21:44,068 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-09 12:21:44,078 INFO supervisord started with pid 1
+2024-03-09 12:21:45,097 INFO spawned: 'php-fpm' with pid 7
+2024-03-09 12:21:45,104 INFO spawned: 'price-monitor' with pid 8
+2024-03-09 12:21:46,160 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-09 12:21:46,161 INFO success: price-monitor entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

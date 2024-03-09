@@ -1,0 +1,79 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: da-app
+    container_name: da-app
+    hostname: da-app
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - mysql
+      - redis
+    environment:
+      - DB_CONNECTION=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_DATABASE=olxapi
+      - DB_USERNAME=root
+      - DB_PASSWORD=root
+    networks:
+      - da-network
+    # command: php artisan queue:work
+  nginx:
+    image: nginx:latest
+    container_name: da-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - .:/var/www/html
+    depends_on:
+      - app
+    networks:
+      - da-network
+
+  mysql:
+    image: mysql:latest
+    container_name: da-mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=olxapi
+      - SERVICE_NAME=mysql
+    networks:
+      - da-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: da-phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      # You can add environment variables for additional configuration options
+      # For example, to increase the upload limit, you can add the following:
+      # UPLOAD_LIMIT: '2048M'
+    ports:
+      - "8080:80" # This will make phpMyAdmin accessible on http://localhost:8080
+    depends_on:
+      - mysql
+    networks:
+      - da-network
+
+  redis:
+    image: redis:latest
+    container_name: da-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+
+networks:
+  da-network:
