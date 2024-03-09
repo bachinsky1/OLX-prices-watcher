@@ -21,11 +21,11 @@
 
 1. Клонуйте репозиторій:
 
-   `git clone https://github.com/your-username/olx-price-tracker.git`
+   `git clone https://github.com/bachinsky1/OLX-prices-watcher.git`
 
 2. Перейдіть до директорії проекту:
 
-   `cd olx-price-tracker`
+   `cd OLX-prices-watcher`
 
 3. створіть файл .env
 
@@ -53,14 +53,81 @@
 
 3. Запустіть докер:
 
-    `docker-compose up -d`
+    `docker-compose && docker-compose up -d`
 
-4. Установіть залежності
+4. Установіть залежності:
 
     `composer install && npm install`
 
 5. Запустіть міграції та побудуйте фронтенд
 
-    `php artisan migrate  && npm run build`
+    `php artisan migrate && npm run build`
 
+6. Запустіть тести:
+
+    `php artisan test`
+
+
+## Використання
+
+### API Ендпоінти
+
+1. Підписка
+
+        URL: /subscribe
+        Метод: POST
+        Тіло запиту:
+
+        {
+            "ad_url": "https://olx.ua/.........",
+            "email": "user@example.com"
+        }
+
+2. Підтвердження пошти
+        
+        URL: /confirm-email/{token}
+        Метод: GET 
+
+3. Зміни цін
+
+        URL: /changes
+        Метод: GET
+
+4. Перелік підписок
+
+        URL: /subscriptions
+        Метод: GET
+
+
+
+### Ви можете використовувати інструменти типу **Postman** або **Insomnia** для відправки запитів, або веб інтерфейс, що доступний за адресою http://localhost/. Також можна користуватись phpMyAdmin за посиланням http://localhost:8080/ для доступу до дази даних MySQL.
+
+Створіть нову підписку
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+Відкрийте електронну пошту та підтвердіть реєстрацію
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+Після цього ви зможете отримувати повідомлення на email в разі зміни ціни на сайті.
+
+В разі зміни ціни на товар в оголошені, ви будете отримувати лист з переліком товарів на які змінилась ціна
+![alt text](image-4.png)
+
+Також зміни цін можна переглянути за посиланням http://localhost/price-changes
+
+![alt text](image-5.png)
+
+Список підписок можна переглянути за посиланням http://localhost/subscriptions
+
+![alt text](image-6.png)
+
+
+Для того щоб земулювати зміну ціни на товар на сайті OLX
+Розкоментуйте строки як на скріншоті нижче
+
+![alt text](image-7.png)
 
