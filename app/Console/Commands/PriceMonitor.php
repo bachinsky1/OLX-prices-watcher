@@ -66,8 +66,8 @@ class PriceMonitor extends Command
                         $priceData = $adData['price'];
 
                         $lastPrice = $ad->prices()->latest()->first();
-                        $newPrice = 200; // Для тесування відправки повідомлення про зміну ціни розкоментовуємо це і закоментовуємо натупну строку
-                        // $newPrice = $priceData['regularPrice']['value'];
+                        // $newPrice = 200; // Для тесування відправки повідомлення про зміну ціни розкоментовуємо це і закоментовуємо натупну строку
+                        $newPrice = $priceData['regularPrice']['value'];
 
                         if (!$lastPrice || $lastPrice->value != $newPrice) {
 							$ad->prices()->create([
