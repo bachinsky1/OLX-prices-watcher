@@ -46,7 +46,7 @@ const submitForm = async () => {
         const response = await axios.post('/api/subscribe', form.value);
         
         // Оновлюємо підписки з повідомленням
-        store.setSubscriptions(response.data.message); 
+        store.fetchSubscriptions(); 
 
         // Закриваємо форму після успішної підписки
         cancel();

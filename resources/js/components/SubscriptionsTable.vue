@@ -2,7 +2,7 @@
     <div>
         <h2 class="text-xl font-bold mb-4">Підписки</h2>
         <!-- Перевірка наявності підписок -->
-        <template v-if="subscriptions.length > 0">
+        <template v-if="subscriptions && subscriptions.length > 0">
             <table class="min-w-full divide-y divide-gray-200 bg-white text-gray-800 dark:bg-gray-800 dark:text-gray-800 border border-gray-300 dark:border-gray-700">
                 <thead class="bg-gray-300 dark:bg-gray-700 dark:text-gray-100 border border-gray-300 dark:border-gray-700">
                     <tr>
@@ -48,32 +48,16 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue';
-import axios from 'axios';
+import { onMounted } from 'vue';
 import { useSubscriptionsStore } from '../store';
 
+import { storeToRefs } from 'pinia';
+
 const store = useSubscriptionsStore();
+const { subscriptions, pagination } = storeToRefs(store);
 
-// Відстеження змін у сторі та оновлення
-watch(() => store.subscriptions, () => {
-    fetchSubscriptions('/api/subscriptions?page=1');
+onMounted(async () => {
+    await store.fetchSubscriptions();
 });
 
-const subscriptions = ref([]);
-const pagination = ref([]);
-
-const fetchSubscriptions = async (url) => {
-    try {
-        const response = await axios.get(url);
-        subscriptions.value = response.data.data;
-        pagination.value = response.data;
-    } catch (error) {
-        console.error('Error:', error);
-    }
-};
-
-
-onMounted(() => {
-    fetchSubscriptions('/api/subscriptions?page=1');
-});
 </script>

@@ -1,16 +1,20 @@
-import { defineStore } from 'pinia'
+import { defineStore } from 'pinia';
+import axios from 'axios';
 
-// Оголошення Pinia-стору для управління підписками
 export const useSubscriptionsStore = defineStore('subscriptions', {
-    // Визначення початкового стану стору
     state: () => ({
-        subscriptions: [] // Початковий стан містить порожній масив підписок
+        subscriptions: [],
+        pagination: {},
     }),
-    // Визначення дій для зміни стану стору
     actions: {
-        // Дія для оновлення списку підписок
-        setSubscriptions (subscriptions) {
-            this.subscriptions = subscriptions // Присвоюємо новий список підписок до властивості 'subscriptions'
-        }
-    }
-})
+        async fetchSubscriptions(page = 1) {
+            try {
+                const response = await axios.get(`/api/subscriptions?page=${page}`);
+                this.subscriptions = response.data.data;
+                this.pagination = response.data;
+            } catch (error) {
+                console.error('Error fetching subscriptions:', error);
+            }
+        },
+    },
+});
