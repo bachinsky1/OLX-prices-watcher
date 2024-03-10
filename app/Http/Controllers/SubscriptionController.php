@@ -38,7 +38,7 @@ class SubscriptionController extends Controller
         // Якщо електронна пошта ще не підтверджена, відправляємо запит на підтвердження
         if (!$emailModel->confirmed) {
             Mail::to($emailModel->email)->send(new ConfirmEmail($emailModel));
-            return response()->json(['message' => 'Щоб завершити підписку, підтвердьте свою електронну адресу. Підтвердження електронною поштою надіслано.']);
+            return response()->json(['message' => 'Щоб завершити підписку, підтвердіть свою електронну адресу. Підтвердження надіслано електронною поштою.']);
         }
 
         return response()->json(['message' => 'Підписка успішна.']);
