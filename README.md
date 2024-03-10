@@ -58,7 +58,7 @@
 
 3. Запустіть докер:
 
-    `docker-compose && docker-compose up -d`
+    `docker-compose up -d`
 
 4. Установіть залежності:
 
