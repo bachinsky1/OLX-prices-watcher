@@ -131,7 +131,7 @@
 
 
 Для того щоб земулювати зміну ціни на товар на сайті OLX
-Розкоментуйте строки в файлі `app\Console\Commands\PriceMonitor.php` як на скріншоті нижче
+Розкоментуйте строку 69 та закоментуйте строку 70 в файлі `app\Console\Commands\PriceMonitor.php` як на скріншоті нижче
 
 ![alt text](image-7.png)
 
